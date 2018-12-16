@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>授权页面</title>
+	<link rel="stylesheet" type="text/css" href="./css/common.css">
+	<style>
+	body{
+		background-color:#e6e8eb;
+	}
+	.area{
+		width:500px;
+		margin:20px auto;
+	}
+	.d-item{
+		padding:10px 0;
+		text-indent:5px;
+		line-height: 19px;
+		cursor: default;
+	}
+	.userlist{
+		padding-left:50px;
+		display:none;
+	}
+	.avatar{
+		width:30px;
+		height:30px;
+		text-align: center;
+		line-height: 30px;
+		border-radius: 50%;
+		overflow: hidden;
+		display: inline-block;
+		margin-top:10px;
+	}
+	.u-item{
+		border-bottom: 1px solid #ccc;
+		position: relative;
+		line-height: 35px;
+		cursor: pointer;
+	}
+	.arrow{
+		display: inline-block;
+		width:15px;
+		height:19px;
+		background: url(./img/arrow-right.png) no-repeat center center;
+		background-size: 15px;
+		vertical-align: top;
+		transition: all .3s;
+	}
+	.folder{
+		display: inline-block;
+		width:15px;
+		height:19px;
+		background: url(./img/folder.png) no-repeat center center;
+		background-size: 15px;
+		vertical-align: top;
+		margin-right:5px;
+	}
+	.check{
+		position: absolute;
+		width:30px;
+		height:30px;
+		right:100px;
+		top:10px;
+		background: url(./img/no.png) no-repeat center center;
+		background-size:30px;
+		cursor: pointer;
+	}
+	.yes{
+		background: url(./img/yes.png) no-repeat center center;
+		background-size:30px;
+	}
+	.username{
+		vertical-align: top;
+		margin-left: 20px;
+		display: inline-block;
+		margin-top:5px;
+	}
+	.ok{
+		width:80px;
+		height:30px;
+		text-align: center;
+		line-height:30px;
+		position: fixed;
+		right:100px;
+		top:20px;
+		background:#3385ff;
+		color:#fff;
+		cursor: pointer;
+		border-radius: 5px;
+		box-shadow: 0px 1px 3px #000;
+	}
+	</style>
+</head>
+<body>
+
+<div class="area"></div>
+
+<div class="ok">保存</div>
+
+<script src="./js/jquery.min.js"></script>
+<script>
+	var baseurl='http://localhost/score/public/index.php';
+	
+	$.ajax({
+		url:baseurl+'/Index/Index/getUserList',
+		dataType:'json',
+		success:function(data){
+			if(data.code==0){
+				var rows=data.data,str='<ul class="department">';
+				for(var i=0,len=rows.length;i<len;i++){
+					if(rows[i].parentid!=0){
+						str+='<li class="d-item"><i class="arrow"></i><i class="folder"></i>部门：'+rows[i].departmentName;
+						var d=eval('('+rows[i].userlist+')'),userlist=d.userlist;
+						if(userlist.length>0){
+							str+='<ul class="userlist">';
+							for(var j=0,llen=userlist.length;j<llen;j++){
+								str+='<li class="u-item"><div class="avatar"><img src="'+userlist[j].avatar+'" width="30"></div><span class="username">'+userlist[j].name+'</span><i  data-name="'+userlist[j].userid+'" class="check" data-img="'+userlist[j].avatar+'" data-uname="'+userlist[j].name+'"></i></li>';
+							}
+							str+='</ul>';
+						}
+						str+='</li>';
+					}
+				}	
+				str+='</ul>';
+			}
+			$('.area').html(str);
+
+			$('.u-item').click(function(event){
+				var event=event || window.event;
+				if($(this).find('.check').attr('flag')=='yes'){
+					$(this).find('.check').removeClass('yes');
+					$(this).find('.check').removeAttr('flag')
+				}else{
+					$(this).find('.check').addClass('yes');
+					$(this).find('.check').attr('flag','yes');
+				}
+				
+			})
+
+			$('.userlist').click(function(event){
+				var event=event || window.event;
+				event.stopPropagation();
+				return false;
+			})
+
+			$('.d-item').click(function(event){
+
+				if($(this).attr('flag')=='open'){
+					$(this).find('.userlist').hide();
+					$(this).find('.arrow').css({'transform':'rotate(0deg)'});
+					$(this).removeAttr('flag')
+				}else{
+					$(this).find('.userlist').show();
+					$(this).find('.arrow').css({'transform':'rotate(90deg)'});
+					$(this).attr('flag','open');
+				}
+				
+				
+			})
+		}
+	})
+
+
+	$('.ok').click(function(){
+
+		var idstr=imgstr=unamestr='';
+		$('.check').each(function(k,v){
+			if($(v).hasClass('yes')){
+				idstr+=$(v).attr('data-name')+'|';
+				imgstr+=$(v).attr('data-img')+'|';
+				unamestr+=$(v).attr('data-uname')+'|';
+			}
+		})
+
+		$.ajax({
+			url:baseurl+'/Index/Index/addRater',
+			type:'post',
+			data:{idstr:idstr.substring(0,idstr.length-1),imgstr:imgstr.substring(0,imgstr.length-1),unamestr:unamestr.substring(0,unamestr.length-1)},
+			dataType:'json',
+			success:function(data){
+				alert(data.msg)
+			}
+		})
+	})
+</script>
+</body>
+</html>
