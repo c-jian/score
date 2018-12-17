@@ -1,0 +1,291 @@
+---------------------------------------------------------------
+[ 2018-11-21T17:32:57+08:00 ] 0.0.0.0 GET /
+[ info ] localhost:8089/ [运行时间：0.426000s][吞吐率：2.35req/s] [内存消耗：2,983.45kb] [文件加载：42]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1542684983; ASP.NET_SessionId=itoqgqsl1jeogoc33h5fdyaf; __RequestVerificationToken=zvrV1TsQS7vJWdPh8B9r89dyYmX5hrlcwKcJGC8T1zRelfHGID5iOvEJyPss1ttFeug4aHLe62hETA8tA6_bMYKASTNcJlSiwaG_H9s8feM1; met_auth=8b72w5Qn5C7C6YnK9uPIKIKyydPgMY1Nn8ROUuy9Y8wS4ExtDeBMuQVZUFVrNElf04AnHcLXlFWggTVnh%2F2bKHq3YQ; met_key=ZjHC460; upgraderemind=1; PHPSESSID=648209fffc677c2e9b982f8320b0a275; recordurl=%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fregister_include.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Flogin.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fgetpassword.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Flogin.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fregister_include.php%253Flang%253Dcn; remeber_name=SGDC; nfine_loginuserkey_2016=A5270809DB78E4FA3E2FF7D59B666AF82CF68B61E6ECF3C19956F3A328BC10474ED22A359712F611392D6EDA823DDF170D098CD59102BD6CA566BB8E72FD394165543A2F14ED26C9873E50A283D83A7EA24F9997199C9E4710966987DF969D03A75984448212CE26F2DEA0CF4517619329E7C7AD601616D048D7C8F68FDD0688EC81EDAAFF96190776354CAC15FC668785D78909E38F71A34C25B4B97DFE0701CB304271C0B4CABC79E085EE3CC78B68943AEB22FFC55807410F67BA7052C13088EF39BF4017E6FFA6D365927F02259688751E91E34ED344C795B0443AB5050D0D229B3D8F1E42725C09AF5FD19D98D1FD102700E87F64C282C88BA4660C6F29D861C9B411888B7E1B5721B2DCA26CAF2BE2FEF148C76958D206B56DEC6D9E8C20106210982322836BF848BD5CF8620709FF5904ADAFC391E3A301365BCAE6151F97E8B512EFC24FBF47D1DACA3DD34B67814F06D5C8F0FB6D8FAB2925D70949C45CE304121840BDD2BC1D6AFF11912BC5D4955E8B1FAECDC619493EC03B8F20935085783B7FE476398BE523F152DA9FEC3C620EBC1051DDD5B515A53B2F0FE0C18231D948DB8AF993C9BC6EA338111019407EDF0A17DEB2; nfine_mac=1F0CAAFEDEC1827093C4635CB868DB0A; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-21T17:32:58+08:00 ] 0.0.0.0 GET /public/api/index/getList
+[ info ] localhost:8089/public/api/index/getList [运行时间：0.085000s][吞吐率：11.76req/s] [内存消耗：2,450.38kb] [文件加载：34]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1542684983; ASP.NET_SessionId=itoqgqsl1jeogoc33h5fdyaf; __RequestVerificationToken=zvrV1TsQS7vJWdPh8B9r89dyYmX5hrlcwKcJGC8T1zRelfHGID5iOvEJyPss1ttFeug4aHLe62hETA8tA6_bMYKASTNcJlSiwaG_H9s8feM1; met_auth=8b72w5Qn5C7C6YnK9uPIKIKyydPgMY1Nn8ROUuy9Y8wS4ExtDeBMuQVZUFVrNElf04AnHcLXlFWggTVnh%2F2bKHq3YQ; met_key=ZjHC460; upgraderemind=1; PHPSESSID=648209fffc677c2e9b982f8320b0a275; recordurl=%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fregister_include.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Flogin.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fgetpassword.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Flogin.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fregister_include.php%253Flang%253Dcn; remeber_name=SGDC; nfine_loginuserkey_2016=A5270809DB78E4FA3E2FF7D59B666AF82CF68B61E6ECF3C19956F3A328BC10474ED22A359712F611392D6EDA823DDF170D098CD59102BD6CA566BB8E72FD394165543A2F14ED26C9873E50A283D83A7EA24F9997199C9E4710966987DF969D03A75984448212CE26F2DEA0CF4517619329E7C7AD601616D048D7C8F68FDD0688EC81EDAAFF96190776354CAC15FC668785D78909E38F71A34C25B4B97DFE0701CB304271C0B4CABC79E085EE3CC78B68943AEB22FFC55807410F67BA7052C13088EF39BF4017E6FFA6D365927F02259688751E91E34ED344C795B0443AB5050D0D229B3D8F1E42725C09AF5FD19D98D1FD102700E87F64C282C88BA4660C6F29D861C9B411888B7E1B5721B2DCA26CAF2BE2FEF148C76958D206B56DEC6D9E8C20106210982322836BF848BD5CF8620709FF5904ADAFC391E3A301365BCAE6151F97E8B512EFC24FBF47D1DACA3DD34B67814F06D5C8F0FB6D8FAB2925D70949C45CE304121840BDD2BC1D6AFF11912BC5D4955E8B1FAECDC619493EC03B8F20935085783B7FE476398BE523F152DA9FEC3C620EBC1051DDD5B515A53B2F0FE0C18231D948DB8AF993C9BC6EA338111019407EDF0A17DEB2; nfine_mac=1F0CAAFEDEC1827093C4635CB868DB0A; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-21T17:32:58+08:00 ] 0.0.0.0 GET /public/login/
+[ info ] localhost:8089/public/login/ [运行时间：0.079000s][吞吐率：12.66req/s] [内存消耗：2,951.57kb] [文件加载：41]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'login',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1542684983; ASP.NET_SessionId=itoqgqsl1jeogoc33h5fdyaf; __RequestVerificationToken=zvrV1TsQS7vJWdPh8B9r89dyYmX5hrlcwKcJGC8T1zRelfHGID5iOvEJyPss1ttFeug4aHLe62hETA8tA6_bMYKASTNcJlSiwaG_H9s8feM1; met_auth=8b72w5Qn5C7C6YnK9uPIKIKyydPgMY1Nn8ROUuy9Y8wS4ExtDeBMuQVZUFVrNElf04AnHcLXlFWggTVnh%2F2bKHq3YQ; met_key=ZjHC460; upgraderemind=1; PHPSESSID=648209fffc677c2e9b982f8320b0a275; recordurl=%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fregister_include.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Flogin.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fgetpassword.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Flogin.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fregister_include.php%253Flang%253Dcn; remeber_name=SGDC; nfine_loginuserkey_2016=A5270809DB78E4FA3E2FF7D59B666AF82CF68B61E6ECF3C19956F3A328BC10474ED22A359712F611392D6EDA823DDF170D098CD59102BD6CA566BB8E72FD394165543A2F14ED26C9873E50A283D83A7EA24F9997199C9E4710966987DF969D03A75984448212CE26F2DEA0CF4517619329E7C7AD601616D048D7C8F68FDD0688EC81EDAAFF96190776354CAC15FC668785D78909E38F71A34C25B4B97DFE0701CB304271C0B4CABC79E085EE3CC78B68943AEB22FFC55807410F67BA7052C13088EF39BF4017E6FFA6D365927F02259688751E91E34ED344C795B0443AB5050D0D229B3D8F1E42725C09AF5FD19D98D1FD102700E87F64C282C88BA4660C6F29D861C9B411888B7E1B5721B2DCA26CAF2BE2FEF148C76958D206B56DEC6D9E8C20106210982322836BF848BD5CF8620709FF5904ADAFC391E3A301365BCAE6151F97E8B512EFC24FBF47D1DACA3DD34B67814F06D5C8F0FB6D8FAB2925D70949C45CE304121840BDD2BC1D6AFF11912BC5D4955E8B1FAECDC619493EC03B8F20935085783B7FE476398BE523F152DA9FEC3C620EBC1051DDD5B515A53B2F0FE0C18231D948DB8AF993C9BC6EA338111019407EDF0A17DEB2; nfine_mac=1F0CAAFEDEC1827093C4635CB868DB0A; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\login\controller\Index->index[ D:\filesys\application\login\controller\Index.php ]
+[ info ] [ VIEW ] D:\filesys\public/../application/login\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-21T17:32:58+08:00 ] 0.0.0.0 GET /public/api/index/getDepartmentUser
+[ info ] localhost:8089/public/api/index/getDepartmentUser [运行时间：0.075000s][吞吐率：13.33req/s] [内存消耗：2,450.67kb] [文件加载：34]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getDepartmentUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1542684983; ASP.NET_SessionId=itoqgqsl1jeogoc33h5fdyaf; __RequestVerificationToken=zvrV1TsQS7vJWdPh8B9r89dyYmX5hrlcwKcJGC8T1zRelfHGID5iOvEJyPss1ttFeug4aHLe62hETA8tA6_bMYKASTNcJlSiwaG_H9s8feM1; met_auth=8b72w5Qn5C7C6YnK9uPIKIKyydPgMY1Nn8ROUuy9Y8wS4ExtDeBMuQVZUFVrNElf04AnHcLXlFWggTVnh%2F2bKHq3YQ; met_key=ZjHC460; upgraderemind=1; PHPSESSID=648209fffc677c2e9b982f8320b0a275; recordurl=%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fregister_include.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Flogin.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fgetpassword.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Flogin.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fregister_include.php%253Flang%253Dcn; remeber_name=SGDC; nfine_loginuserkey_2016=A5270809DB78E4FA3E2FF7D59B666AF82CF68B61E6ECF3C19956F3A328BC10474ED22A359712F611392D6EDA823DDF170D098CD59102BD6CA566BB8E72FD394165543A2F14ED26C9873E50A283D83A7EA24F9997199C9E4710966987DF969D03A75984448212CE26F2DEA0CF4517619329E7C7AD601616D048D7C8F68FDD0688EC81EDAAFF96190776354CAC15FC668785D78909E38F71A34C25B4B97DFE0701CB304271C0B4CABC79E085EE3CC78B68943AEB22FFC55807410F67BA7052C13088EF39BF4017E6FFA6D365927F02259688751E91E34ED344C795B0443AB5050D0D229B3D8F1E42725C09AF5FD19D98D1FD102700E87F64C282C88BA4660C6F29D861C9B411888B7E1B5721B2DCA26CAF2BE2FEF148C76958D206B56DEC6D9E8C20106210982322836BF848BD5CF8620709FF5904ADAFC391E3A301365BCAE6151F97E8B512EFC24FBF47D1DACA3DD34B67814F06D5C8F0FB6D8FAB2925D70949C45CE304121840BDD2BC1D6AFF11912BC5D4955E8B1FAECDC619493EC03B8F20935085783B7FE476398BE523F152DA9FEC3C620EBC1051DDD5B515A53B2F0FE0C18231D948DB8AF993C9BC6EA338111019407EDF0A17DEB2; nfine_mac=1F0CAAFEDEC1827093C4635CB868DB0A; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-21T17:33:02+08:00 ] 0.0.0.0 GET /public/login/
+[ info ] localhost:8089/public/login/ [运行时间：0.040000s][吞吐率：25.00req/s] [内存消耗：2,952.05kb] [文件加载：41]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'login',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1542684983; ASP.NET_SessionId=itoqgqsl1jeogoc33h5fdyaf; __RequestVerificationToken=zvrV1TsQS7vJWdPh8B9r89dyYmX5hrlcwKcJGC8T1zRelfHGID5iOvEJyPss1ttFeug4aHLe62hETA8tA6_bMYKASTNcJlSiwaG_H9s8feM1; met_auth=8b72w5Qn5C7C6YnK9uPIKIKyydPgMY1Nn8ROUuy9Y8wS4ExtDeBMuQVZUFVrNElf04AnHcLXlFWggTVnh%2F2bKHq3YQ; met_key=ZjHC460; upgraderemind=1; PHPSESSID=648209fffc677c2e9b982f8320b0a275; recordurl=%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fregister_include.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Flogin.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fgetpassword.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Flogin.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fregister_include.php%253Flang%253Dcn; remeber_name=SGDC; nfine_loginuserkey_2016=A5270809DB78E4FA3E2FF7D59B666AF82CF68B61E6ECF3C19956F3A328BC10474ED22A359712F611392D6EDA823DDF170D098CD59102BD6CA566BB8E72FD394165543A2F14ED26C9873E50A283D83A7EA24F9997199C9E4710966987DF969D03A75984448212CE26F2DEA0CF4517619329E7C7AD601616D048D7C8F68FDD0688EC81EDAAFF96190776354CAC15FC668785D78909E38F71A34C25B4B97DFE0701CB304271C0B4CABC79E085EE3CC78B68943AEB22FFC55807410F67BA7052C13088EF39BF4017E6FFA6D365927F02259688751E91E34ED344C795B0443AB5050D0D229B3D8F1E42725C09AF5FD19D98D1FD102700E87F64C282C88BA4660C6F29D861C9B411888B7E1B5721B2DCA26CAF2BE2FEF148C76958D206B56DEC6D9E8C20106210982322836BF848BD5CF8620709FF5904ADAFC391E3A301365BCAE6151F97E8B512EFC24FBF47D1DACA3DD34B67814F06D5C8F0FB6D8FAB2925D70949C45CE304121840BDD2BC1D6AFF11912BC5D4955E8B1FAECDC619493EC03B8F20935085783B7FE476398BE523F152DA9FEC3C620EBC1051DDD5B515A53B2F0FE0C18231D948DB8AF993C9BC6EA338111019407EDF0A17DEB2; nfine_mac=1F0CAAFEDEC1827093C4635CB868DB0A; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\login\controller\Index->index[ D:\filesys\application\login\controller\Index.php ]
+[ info ] [ VIEW ] D:\filesys\public/../application/login\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-21T17:33:13+08:00 ] 0.0.0.0 GET /public/login/index/login?uname=admin&pwd=admin
+[ info ] localhost:8089/public/login/index/login?uname=admin&pwd=admin [运行时间：1.459000s][吞吐率：0.69req/s] [内存消耗：4,374.25kb] [文件加载：47]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'login',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/login/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1542684983; ASP.NET_SessionId=itoqgqsl1jeogoc33h5fdyaf; __RequestVerificationToken=zvrV1TsQS7vJWdPh8B9r89dyYmX5hrlcwKcJGC8T1zRelfHGID5iOvEJyPss1ttFeug4aHLe62hETA8tA6_bMYKASTNcJlSiwaG_H9s8feM1; met_auth=8b72w5Qn5C7C6YnK9uPIKIKyydPgMY1Nn8ROUuy9Y8wS4ExtDeBMuQVZUFVrNElf04AnHcLXlFWggTVnh%2F2bKHq3YQ; met_key=ZjHC460; upgraderemind=1; PHPSESSID=648209fffc677c2e9b982f8320b0a275; recordurl=%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fregister_include.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Flogin.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fgetpassword.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Flogin.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fregister_include.php%253Flang%253Dcn; remeber_name=SGDC; nfine_loginuserkey_2016=A5270809DB78E4FA3E2FF7D59B666AF82CF68B61E6ECF3C19956F3A328BC10474ED22A359712F611392D6EDA823DDF170D098CD59102BD6CA566BB8E72FD394165543A2F14ED26C9873E50A283D83A7EA24F9997199C9E4710966987DF969D03A75984448212CE26F2DEA0CF4517619329E7C7AD601616D048D7C8F68FDD0688EC81EDAAFF96190776354CAC15FC668785D78909E38F71A34C25B4B97DFE0701CB304271C0B4CABC79E085EE3CC78B68943AEB22FFC55807410F67BA7052C13088EF39BF4017E6FFA6D365927F02259688751E91E34ED344C795B0443AB5050D0D229B3D8F1E42725C09AF5FD19D98D1FD102700E87F64C282C88BA4660C6F29D861C9B411888B7E1B5721B2DCA26CAF2BE2FEF148C76958D206B56DEC6D9E8C20106210982322836BF848BD5CF8620709FF5904ADAFC391E3A301365BCAE6151F97E8B512EFC24FBF47D1DACA3DD34B67814F06D5C8F0FB6D8FAB2925D70949C45CE304121840BDD2BC1D6AFF11912BC5D4955E8B1FAECDC619493EC03B8F20935085783B7FE476398BE523F152DA9FEC3C620EBC1051DDD5B515A53B2F0FE0C18231D948DB8AF993C9BC6EA338111019407EDF0A17DEB2; nfine_mac=1F0CAAFEDEC1827093C4635CB868DB0A; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5',
+)
+[ info ] [ PARAM ] array (
+  'uname' => 'admin',
+  'pwd' => 'admin',
+)
+[ info ] [ RUN ] app\login\controller\Index->login[ D:\filesys\application\login\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.098000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.831000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `token`='ba392b88711d695bb8487f52486b86e48120f79e',`maxtime`='1542796393'  WHERE  `id` = 1 [ RunTime:0.291000s ]
+---------------------------------------------------------------
+[ 2018-11-21T17:33:14+08:00 ] 0.0.0.0 GET /
+[ info ] localhost:8089/ [运行时间：0.038000s][吞吐率：26.32req/s] [内存消耗：2,984.29kb] [文件加载：42]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/login/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1542684983; ASP.NET_SessionId=itoqgqsl1jeogoc33h5fdyaf; __RequestVerificationToken=zvrV1TsQS7vJWdPh8B9r89dyYmX5hrlcwKcJGC8T1zRelfHGID5iOvEJyPss1ttFeug4aHLe62hETA8tA6_bMYKASTNcJlSiwaG_H9s8feM1; met_auth=8b72w5Qn5C7C6YnK9uPIKIKyydPgMY1Nn8ROUuy9Y8wS4ExtDeBMuQVZUFVrNElf04AnHcLXlFWggTVnh%2F2bKHq3YQ; met_key=ZjHC460; upgraderemind=1; PHPSESSID=648209fffc677c2e9b982f8320b0a275; recordurl=%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fregister_include.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Flogin.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fgetpassword.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Flogin.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fregister_include.php%253Flang%253Dcn; remeber_name=SGDC; nfine_loginuserkey_2016=A5270809DB78E4FA3E2FF7D59B666AF82CF68B61E6ECF3C19956F3A328BC10474ED22A359712F611392D6EDA823DDF170D098CD59102BD6CA566BB8E72FD394165543A2F14ED26C9873E50A283D83A7EA24F9997199C9E4710966987DF969D03A75984448212CE26F2DEA0CF4517619329E7C7AD601616D048D7C8F68FDD0688EC81EDAAFF96190776354CAC15FC668785D78909E38F71A34C25B4B97DFE0701CB304271C0B4CABC79E085EE3CC78B68943AEB22FFC55807410F67BA7052C13088EF39BF4017E6FFA6D365927F02259688751E91E34ED344C795B0443AB5050D0D229B3D8F1E42725C09AF5FD19D98D1FD102700E87F64C282C88BA4660C6F29D861C9B411888B7E1B5721B2DCA26CAF2BE2FEF148C76958D206B56DEC6D9E8C20106210982322836BF848BD5CF8620709FF5904ADAFC391E3A301365BCAE6151F97E8B512EFC24FBF47D1DACA3DD34B67814F06D5C8F0FB6D8FAB2925D70949C45CE304121840BDD2BC1D6AFF11912BC5D4955E8B1FAECDC619493EC03B8F20935085783B7FE476398BE523F152DA9FEC3C620EBC1051DDD5B515A53B2F0FE0C18231D948DB8AF993C9BC6EA338111019407EDF0A17DEB2; nfine_mac=1F0CAAFEDEC1827093C4635CB868DB0A; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin; fstoken=ba392b88711d695bb8487f52486b86e48120f79e; fsid=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-21T17:33:14+08:00 ] 0.0.0.0 GET /public/api/index/getList
+[ info ] localhost:8089/public/api/index/getList [运行时间：0.388000s][吞吐率：2.58req/s] [内存消耗：3,910.54kb] [文件加载：42]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1542684983; ASP.NET_SessionId=itoqgqsl1jeogoc33h5fdyaf; __RequestVerificationToken=zvrV1TsQS7vJWdPh8B9r89dyYmX5hrlcwKcJGC8T1zRelfHGID5iOvEJyPss1ttFeug4aHLe62hETA8tA6_bMYKASTNcJlSiwaG_H9s8feM1; met_auth=8b72w5Qn5C7C6YnK9uPIKIKyydPgMY1Nn8ROUuy9Y8wS4ExtDeBMuQVZUFVrNElf04AnHcLXlFWggTVnh%2F2bKHq3YQ; met_key=ZjHC460; upgraderemind=1; PHPSESSID=648209fffc677c2e9b982f8320b0a275; recordurl=%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fregister_include.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Flogin.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fgetpassword.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Flogin.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fregister_include.php%253Flang%253Dcn; remeber_name=SGDC; nfine_loginuserkey_2016=A5270809DB78E4FA3E2FF7D59B666AF82CF68B61E6ECF3C19956F3A328BC10474ED22A359712F611392D6EDA823DDF170D098CD59102BD6CA566BB8E72FD394165543A2F14ED26C9873E50A283D83A7EA24F9997199C9E4710966987DF969D03A75984448212CE26F2DEA0CF4517619329E7C7AD601616D048D7C8F68FDD0688EC81EDAAFF96190776354CAC15FC668785D78909E38F71A34C25B4B97DFE0701CB304271C0B4CABC79E085EE3CC78B68943AEB22FFC55807410F67BA7052C13088EF39BF4017E6FFA6D365927F02259688751E91E34ED344C795B0443AB5050D0D229B3D8F1E42725C09AF5FD19D98D1FD102700E87F64C282C88BA4660C6F29D861C9B411888B7E1B5721B2DCA26CAF2BE2FEF148C76958D206B56DEC6D9E8C20106210982322836BF848BD5CF8620709FF5904ADAFC391E3A301365BCAE6151F97E8B512EFC24FBF47D1DACA3DD34B67814F06D5C8F0FB6D8FAB2925D70949C45CE304121840BDD2BC1D6AFF11912BC5D4955E8B1FAECDC619493EC03B8F20935085783B7FE476398BE523F152DA9FEC3C620EBC1051DDD5B515A53B2F0FE0C18231D948DB8AF993C9BC6EA338111019407EDF0A17DEB2; nfine_mac=1F0CAAFEDEC1827093C4635CB868DB0A; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin; fstoken=ba392b88711d695bb8487f52486b86e48120f79e; fsid=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->getList[ D:\filesys\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.019000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.119000s ]
+[ sql ] [ SQL ] SELECT `projectId`,`projectName`,`addtime`,`weChatName` FROM `project` WHERE  `loginId` = 1 ORDER BY `id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.044000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `files` WHERE  `projectid` = '185b7fe133f003adad3ce536bc3717f12cf53a7c' LIMIT 1 [ RunTime:0.127000s ]
+---------------------------------------------------------------
+[ 2018-11-21T17:33:18+08:00 ] 0.0.0.0 GET /public/api/index/getDepartmentUser
+[ info ] localhost:8089/public/api/index/getDepartmentUser [运行时间：4.697000s][吞吐率：0.21req/s] [内存消耗：4,246.36kb] [文件加载：44]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getDepartmentUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1542684983; ASP.NET_SessionId=itoqgqsl1jeogoc33h5fdyaf; __RequestVerificationToken=zvrV1TsQS7vJWdPh8B9r89dyYmX5hrlcwKcJGC8T1zRelfHGID5iOvEJyPss1ttFeug4aHLe62hETA8tA6_bMYKASTNcJlSiwaG_H9s8feM1; met_auth=8b72w5Qn5C7C6YnK9uPIKIKyydPgMY1Nn8ROUuy9Y8wS4ExtDeBMuQVZUFVrNElf04AnHcLXlFWggTVnh%2F2bKHq3YQ; met_key=ZjHC460; upgraderemind=1; PHPSESSID=648209fffc677c2e9b982f8320b0a275; recordurl=%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fregister_include.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Flogin.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fgetpassword.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Flogin.php%253Flang%253Dcn%2Chttp%253A%252F%252Flocalhost%253A8086%252Fmember%252Fregister_include.php%253Flang%253Dcn; remeber_name=SGDC; nfine_loginuserkey_2016=A5270809DB78E4FA3E2FF7D59B666AF82CF68B61E6ECF3C19956F3A328BC10474ED22A359712F611392D6EDA823DDF170D098CD59102BD6CA566BB8E72FD394165543A2F14ED26C9873E50A283D83A7EA24F9997199C9E4710966987DF969D03A75984448212CE26F2DEA0CF4517619329E7C7AD601616D048D7C8F68FDD0688EC81EDAAFF96190776354CAC15FC668785D78909E38F71A34C25B4B97DFE0701CB304271C0B4CABC79E085EE3CC78B68943AEB22FFC55807410F67BA7052C13088EF39BF4017E6FFA6D365927F02259688751E91E34ED344C795B0443AB5050D0D229B3D8F1E42725C09AF5FD19D98D1FD102700E87F64C282C88BA4660C6F29D861C9B411888B7E1B5721B2DCA26CAF2BE2FEF148C76958D206B56DEC6D9E8C20106210982322836BF848BD5CF8620709FF5904ADAFC391E3A301365BCAE6151F97E8B512EFC24FBF47D1DACA3DD34B67814F06D5C8F0FB6D8FAB2925D70949C45CE304121840BDD2BC1D6AFF11912BC5D4955E8B1FAECDC619493EC03B8F20935085783B7FE476398BE523F152DA9FEC3C620EBC1051DDD5B515A53B2F0FE0C18231D948DB8AF993C9BC6EA338111019407EDF0A17DEB2; nfine_mac=1F0CAAFEDEC1827093C4635CB868DB0A; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin; fstoken=ba392b88711d695bb8487f52486b86e48120f79e; fsid=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->getDepartmentUser[ D:\filesys\application\api\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `access_token` [ RunTime:0.075000s ]
+[ sql ] [ SQL ] SELECT * FROM `access_token` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `access_token`  SET `access_token`='ebJxFmIZYXZp7CJWY44Gpeem65iUl3broRxjEs8xbYvlv43kKQwvEp9qNm6S27K9R2aXO6enqFythiivDvD-6EbGl7iC0V74swBAF4aCw0_7SV0HsgRN9b7c5a1Vehw2eCRoHojTf7B-AUvvdaJYI4DA-i9sHtDZFqQvluiVawUVtD9Oe_2zcH7MPBDl4eBW0272FosWU8Nyl7ustlawEA',`expires_time`='1542799994'  WHERE  `id` = 1 [ RunTime:0.000000s ]

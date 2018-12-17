@@ -1,0 +1,3095 @@
+---------------------------------------------------------------
+[ 2018-10-31T11:24:33+08:00 ] 0.0.0.0 GET /
+[ info ] localhost:8089/ [运行时间：0.196000s][吞吐率：5.10req/s] [内存消耗：2,980.22kb] [文件加载：42]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-31T11:24:34+08:00 ] 0.0.0.0 GET /public/api/index/getList
+[ info ] localhost:8089/public/api/index/getList [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：2,443.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-31T11:24:34+08:00 ] 0.0.0.0 GET /public/api/index/getDepartmentUser
+[ info ] localhost:8089/public/api/index/getDepartmentUser [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：2,443.72kb] [文件加载：34]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getDepartmentUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-31T11:24:34+08:00 ] 0.0.0.0 GET /public/login/
+[ info ] localhost:8089/public/login/ [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：2,945.35kb] [文件加载：41]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'login',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\login\controller\Index->index[ D:\filesys\application\login\controller\Index.php ]
+[ info ] [ VIEW ] D:\filesys\public/../application/login\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-31T11:24:41+08:00 ] 0.0.0.0 GET /public/login/index/login?uname=admin001&pwd=admin001
+[ info ] localhost:8089/public/login/index/login?uname=admin001&pwd=admin001 [运行时间：0.113000s][吞吐率：8.85req/s] [内存消耗：4,369.62kb] [文件加载：47]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'login',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/login/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5',
+)
+[ info ] [ PARAM ] array (
+  'uname' => 'admin001',
+  'pwd' => 'admin001',
+)
+[ info ] [ RUN ] app\login\controller\Index->login[ D:\filesys\application\login\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `token`='f3a3484a424f15c6d2a2a3db4583ab90587796ef',`maxtime`='1540959881'  WHERE  `id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T11:24:41+08:00 ] 0.0.0.0 GET /
+[ info ] localhost:8089/ [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：2,980.99kb] [文件加载：42]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/login/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-31T11:24:41+08:00 ] 0.0.0.0 GET /public/api/index/getList
+[ info ] localhost:8089/public/api/index/getList [运行时间：0.151000s][吞吐率：6.62req/s] [内存消耗：3,916.00kb] [文件加载：42]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->getList[ D:\filesys\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.045000s ]
+[ sql ] [ SQL ] SELECT `projectId`,`projectName`,`addtime`,`weChatName` FROM `project` WHERE  `loginId` = 2 ORDER BY `id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.034000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `files` WHERE  `projectid` = '54fab4d738bc06e27aab4ee01a2825a9ae2eee57' LIMIT 1 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `files` WHERE  `projectid` = '5e93e3d1afd7953ac33defaa9038284b638dc168' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T11:24:45+08:00 ] 0.0.0.0 GET /public/api/index/getDepartmentUser
+[ info ] localhost:8089/public/api/index/getDepartmentUser [运行时间：4.268000s][吞吐率：0.23req/s] [内存消耗：4,237.59kb] [文件加载：44]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getDepartmentUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->getDepartmentUser[ D:\filesys\application\api\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `access_token` [ RunTime:0.057000s ]
+[ sql ] [ SQL ] SELECT * FROM `access_token` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `access_token`  SET `access_token`='Zx0cdA1ar4Uv0rYmMhJ1vYjTl8pcK3fSfC-ZZoo4e2PARQX2xMtMERtRoYRotPlZ43X7Mstalnwf3CjHTr0IHqQT-pSx9u67Fx4dgKgDKtRbaFbmbX8t1jEZMs7adfwOnmrre4rLQb6ac8uCEPsJVHLI3o47HtJkTZUnQTKGYYX0rytIwiO_c8orxkEZYxXK7N83yP1JXhpO-Idm-k9vEQ',`expires_time`='1540963481'  WHERE  `id` = 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-10-31T11:27:02+08:00 ] 0.0.0.0 GET /public/project/index/skip?admin=1&pname=new&url=http%3A%2F%2Flocalhost%3A8089%2Fpublic%2Fproject%3Fid%3D54fab4d738bc06e27aab4ee01a2825a9ae2eee57
+[ info ] localhost:8089/public/project/index/skip?admin=1&pname=new&url=http%3A%2F%2Flocalhost%3A8089%2Fpublic%2Fproject%3Fid%3D54fab4d738bc06e27aab4ee01a2825a9ae2eee57 [运行时间：0.105000s][吞吐率：9.52req/s] [内存消耗：4,417.71kb] [文件加载：49]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'project',
+    1 => 'index',
+    2 => 'skip',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'admin' => '1',
+  'pname' => 'new',
+  'url' => 'http://localhost:8089/public/project?id=54fab4d738bc06e27aab4ee01a2825a9ae2eee57',
+)
+[ info ] [ RUN ] app\project\controller\Index->skip[ D:\filesys\application\project\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/project\view\index\skip.html [ array (
+  0 => 'gotourl',
+  1 => 'pname',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-10-31T11:27:47+08:00 ] 0.0.0.0 GET /public/project?id=ce8212d0b3428cd84026ed1162a74d016e77a5b1
+[ info ] localhost:8089/public/project?id=ce8212d0b3428cd84026ed1162a74d016e77a5b1 [运行时间：0.111000s][吞吐率：9.01req/s] [内存消耗：4,445.31kb] [文件加载：50]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'project',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'ce8212d0b3428cd84026ed1162a74d016e77a5b1',
+)
+[ info ] [ RUN ] app\project\controller\Index->index[ D:\filesys\application\project\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `access_token` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `access_token` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'ce8212d0b3428cd84026ed1162a74d016e77a5b1' [ RunTime:0.001000s ]
+[ error ] [8]未定义变量: project[D:\filesys\application\project\controller\Index.php:45]
+---------------------------------------------------------------
+[ 2018-10-31T11:29:26+08:00 ] 0.0.0.0 GET /public/project/index/skip?admin=1&pname=new&url=http%3A%2F%2Flocalhost%3A8089%2Fpublic%2Fproject%3Fid%3D54fab4d738bc06e27aab4ee01a2825a9ae2eee57
+[ info ] localhost:8089/public/project/index/skip?admin=1&pname=new&url=http%3A%2F%2Flocalhost%3A8089%2Fpublic%2Fproject%3Fid%3D54fab4d738bc06e27aab4ee01a2825a9ae2eee57 [运行时间：0.064000s][吞吐率：15.63req/s] [内存消耗：4,417.71kb] [文件加载：49]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'project',
+    1 => 'index',
+    2 => 'skip',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'admin' => '1',
+  'pname' => 'new',
+  'url' => 'http://localhost:8089/public/project?id=54fab4d738bc06e27aab4ee01a2825a9ae2eee57',
+)
+[ info ] [ RUN ] app\project\controller\Index->skip[ D:\filesys\application\project\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/project\view\index\skip.html [ array (
+  0 => 'gotourl',
+  1 => 'pname',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T11:30:14+08:00 ] 0.0.0.0 GET /public/project?id=ce8212d0b3428cd84026ed1162a74d016e77a5b1
+[ info ] localhost:8089/public/project?id=ce8212d0b3428cd84026ed1162a74d016e77a5b1 [运行时间：0.112000s][吞吐率：8.93req/s] [内存消耗：4,723.09kb] [文件加载：54]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'project',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'ce8212d0b3428cd84026ed1162a74d016e77a5b1',
+)
+[ info ] [ RUN ] app\project\controller\Index->index[ D:\filesys\application\project\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/project\view\index\index.html [ array (
+  0 => 'data',
+  1 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `access_token` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `access_token` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'ce8212d0b3428cd84026ed1162a74d016e77a5b1' [ RunTime:0.000000s ]
+[ error ] [8]未定义变量: pname[D:\filesys\runtime\temp\1112b7418859c70927d429e2630afab3.php:107]
+---------------------------------------------------------------
+[ 2018-10-31T11:30:32+08:00 ] 0.0.0.0 GET /public/project?id=ce8212d0b3428cd84026ed1162a74d016e77a5b1
+[ info ] localhost:8089/public/project?id=ce8212d0b3428cd84026ed1162a74d016e77a5b1 [运行时间：0.071000s][吞吐率：14.08req/s] [内存消耗：4,385.45kb] [文件加载：48]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'project',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'ce8212d0b3428cd84026ed1162a74d016e77a5b1',
+)
+[ info ] [ RUN ] app\project\controller\Index->index[ D:\filesys\application\project\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/project\view\index\index.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `access_token` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `access_token` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `projectName`,`warrantId` FROM `project` WHERE  `projectId` = 'ce8212d0b3428cd84026ed1162a74d016e77a5b1' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'ce8212d0b3428cd84026ed1162a74d016e77a5b1' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T11:30:48+08:00 ] 0.0.0.0 GET /public/project?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/project?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：4,392.88kb] [文件加载：48]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'project',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\project\controller\Index->index[ D:\filesys\application\project\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/project\view\index\index.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `access_token` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `access_token` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName`,`warrantId` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T11:40:21+08:00 ] 0.0.0.0 GET /public/project?id=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd
+[ info ] localhost:8089/public/project?id=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd [运行时间：0.066000s][吞吐率：15.15req/s] [内存消耗：4,393.22kb] [文件加载：48]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'project',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+  'code' => 'fdfdfd',
+)
+[ info ] [ RUN ] app\project\controller\Index->index[ D:\filesys\application\project\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/project\view\index\index.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `access_token` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `access_token` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName`,`warrantId` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T11:40:28+08:00 ] 0.0.0.0 GET /public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.047000s][吞吐率：21.28req/s] [内存消耗：2,801.61kb] [文件加载：37]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'download',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/project?id=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '55',
+  'pid' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->download[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-31T11:43:01+08:00 ] 0.0.0.0 GET /public/project?id=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd
+[ info ] localhost:8089/public/project?id=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd [运行时间：0.081000s][吞吐率：12.35req/s] [内存消耗：4,644.90kb] [文件加载：50]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'project',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+  'code' => 'fdfdfd',
+)
+[ info ] [ RUN ] app\project\controller\Index->index[ D:\filesys\application\project\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/project\view\index\index.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+  3 => 'code',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `access_token` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `access_token` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName`,`warrantId` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T11:43:02+08:00 ] 0.0.0.0 GET /public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd
+[ info ] localhost:8089/public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd [运行时间：0.080000s][吞吐率：12.50req/s] [内存消耗：2,801.62kb] [文件加载：37]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'download',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/project?id=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '55',
+  'pid' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+  'code' => 'fdfdfd',
+)
+[ info ] [ RUN ] app\index\controller\Index->download[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-31T11:43:25+08:00 ] 0.0.0.0 GET /public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd
+[ info ] localhost:8089/public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd [运行时间：0.080000s][吞吐率：12.50req/s] [内存消耗：2,801.62kb] [文件加载：37]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'download',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/project?id=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '55',
+  'pid' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+  'code' => 'fdfdfd',
+)
+[ info ] [ RUN ] app\index\controller\Index->download[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-31T11:44:09+08:00 ] 0.0.0.0 GET /public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd
+[ info ] localhost:8089/public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd [运行时间：0.069000s][吞吐率：14.49req/s] [内存消耗：4,228.82kb] [文件加载：44]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'download',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/project?id=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '55',
+  'pid' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+  'code' => 'fdfdfd',
+)
+[ info ] [ RUN ] app\index\controller\Index->download[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `access_token` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `access_token` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T11:47:11+08:00 ] 0.0.0.0 GET /public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd
+[ info ] localhost:8089/public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd [运行时间：0.284000s][吞吐率：3.52req/s] [内存消耗：4,478.48kb] [文件加载：50]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'download',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/project?id=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '55',
+  'pid' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+  'code' => 'fdfdfd',
+)
+[ info ] [ RUN ] app\index\controller\Index->download[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `access_token` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `access_token` LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [8]未定义数组索引: user_ticket[D:\filesys\application\index\controller\Index.php:138]
+---------------------------------------------------------------
+[ 2018-10-31T11:52:26+08:00 ] 0.0.0.0 GET /public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd
+[ info ] localhost:8089/public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd [运行时间：0.252000s][吞吐率：3.97req/s] [内存消耗：4,486.54kb] [文件加载：50]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'download',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/project?id=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '55',
+  'pid' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+  'code' => 'fdfdfd',
+)
+[ info ] [ RUN ] app\index\controller\Index->download[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `access_token` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `access_token` LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [8]未定义数组索引: user_ticket[D:\filesys\application\index\controller\Index.php:138]
+---------------------------------------------------------------
+[ 2018-10-31T14:38:09+08:00 ] 0.0.0.0 GET /public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd
+[ info ] localhost:8089/public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd [运行时间：0.444000s][吞吐率：2.25req/s] [内存消耗：4,655.74kb] [文件加载：53]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'download',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/project?id=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '55',
+  'pid' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+  'code' => 'fdfdfd',
+)
+[ info ] [ RUN ] app\index\controller\Index->download[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `access_token` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `access_token` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `access_token`  SET `access_token`='Es9_l6AVRHYpG2FD4MzOJSWbkXlnW5psmqFxpSAmgXmqV4WyZ6YulYPPYPWJ-IJUYi5-hacU6rgAuaehf34ADRRDdEkdwh8K2bKsXQ2p5c9R_l2nYdQW2z3Jk6pdGsro7-r6BLXmOc5PNuU4Z_ZOmxezjKYDBKBXA_6bj35JGEtziFQ385Hz8ePUZYyMa_iDbSVISRFGBAxtoQ6rBg4FAQ',`expires_time`='1540975088'  WHERE  `id` = 1 [ RunTime:0.002000s ]
+[ error ] [8]未定义数组索引: user_ticket[D:\filesys\application\index\controller\Index.php:138]
+---------------------------------------------------------------
+[ 2018-10-31T14:48:06+08:00 ] 0.0.0.0 GET /public/project?id=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd
+[ info ] localhost:8089/public/project?id=d314e80b2910754281754f2210f8a29a37f5685c&code=fdfdfd [运行时间：0.241000s][吞吐率：4.15req/s] [内存消耗：4,337.83kb] [文件加载：46]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'project',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+  'code' => 'fdfdfd',
+)
+[ info ] [ RUN ] app\project\controller\Index->index[ D:\filesys\application\project\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `access_token` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `access_token` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:04:17+08:00 ] 0.0.0.0 GET /
+[ info ] localhost:8089/ [运行时间：0.037000s][吞吐率：27.03req/s] [内存消耗：2,981.59kb] [文件加载：42]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/login/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-31T15:04:17+08:00 ] 0.0.0.0 GET /public/api/index/getList
+[ info ] localhost:8089/public/api/index/getList [运行时间：0.041000s][吞吐率：24.39req/s] [内存消耗：3,879.45kb] [文件加载：41]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:04:17+08:00 ] 0.0.0.0 GET /public/api/index/getDepartmentUser
+[ info ] localhost:8089/public/api/index/getDepartmentUser [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：3,879.08kb] [文件加载：41]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getDepartmentUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:04:17+08:00 ] 0.0.0.0 GET /public/login/
+[ info ] localhost:8089/public/login/ [运行时间：0.045000s][吞吐率：22.22req/s] [内存消耗：2,946.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'login',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\login\controller\Index->index[ D:\filesys\application\login\controller\Index.php ]
+[ info ] [ VIEW ] D:\filesys\public/../application/login\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-31T15:04:26+08:00 ] 0.0.0.0 GET /public/login/index/login?uname=admin001&pwd=admin001
+[ info ] localhost:8089/public/login/index/login?uname=admin001&pwd=admin001 [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：4,370.41kb] [文件加载：47]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'login',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/login/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=f3a3484a424f15c6d2a2a3db4583ab90587796ef; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'uname' => 'admin001',
+  'pwd' => 'admin001',
+)
+[ info ] [ RUN ] app\login\controller\Index->login[ D:\filesys\application\login\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `token`='87e222d6f1c6d6b6022fab447629fe95c65a846f',`maxtime`='1540973066'  WHERE  `id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:04:27+08:00 ] 0.0.0.0 GET /
+[ info ] localhost:8089/ [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：2,981.59kb] [文件加载：42]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/login/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-31T15:04:27+08:00 ] 0.0.0.0 GET /public/api/index/getList
+[ info ] localhost:8089/public/api/index/getList [运行时间：0.088000s][吞吐率：11.36req/s] [内存消耗：3,918.23kb] [文件加载：42]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->getList[ D:\filesys\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `projectId`,`projectName`,`addtime`,`weChatName` FROM `project` WHERE  `loginId` = 2 ORDER BY `id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `files` WHERE  `projectid` = '54fab4d738bc06e27aab4ee01a2825a9ae2eee57' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `files` WHERE  `projectid` = '5e93e3d1afd7953ac33defaa9038284b638dc168' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:04:29+08:00 ] 0.0.0.0 GET /public/api/index/getDepartmentUser
+[ info ] localhost:8089/public/api/index/getDepartmentUser [运行时间：2.231000s][吞吐率：0.45req/s] [内存消耗：4,069.99kb] [文件加载：41]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getDepartmentUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->getDepartmentUser[ D:\filesys\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `access_token` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `access_token` LIMIT 1 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:04:31+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.088000s][吞吐率：11.36req/s] [内存消耗：4,478.69kb] [文件加载：49]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:04:37+08:00 ] 0.0.0.0 GET /public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.144000s][吞吐率：6.94req/s] [内存消耗：7,943.41kb] [文件加载：47]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'download',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '55',
+  'pid' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->download[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `id` = 55  AND `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `files`  SET `downloadnum`=`downloadnum`+1  WHERE  `id` = 55 [ RunTime:0.021000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:06:22+08:00 ] 0.0.0.0 GET /
+[ info ] localhost:8089/ [运行时间：0.041000s][吞吐率：24.39req/s] [内存消耗：2,981.59kb] [文件加载：42]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/login/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-31T15:06:22+08:00 ] 0.0.0.0 GET /public/api/index/getList
+[ info ] localhost:8089/public/api/index/getList [运行时间：0.075000s][吞吐率：13.33req/s] [内存消耗：3,918.23kb] [文件加载：42]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->getList[ D:\filesys\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `projectId`,`projectName`,`addtime`,`weChatName` FROM `project` WHERE  `loginId` = 2 ORDER BY `id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `files` WHERE  `projectid` = '54fab4d738bc06e27aab4ee01a2825a9ae2eee57' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `files` WHERE  `projectid` = '5e93e3d1afd7953ac33defaa9038284b638dc168' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:06:24+08:00 ] 0.0.0.0 GET /public/api/index/getDepartmentUser
+[ info ] localhost:8089/public/api/index/getDepartmentUser [运行时间：2.221000s][吞吐率：0.45req/s] [内存消耗：4,069.99kb] [文件加载：41]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getDepartmentUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->getDepartmentUser[ D:\filesys\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `access_token` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `access_token` LIMIT 1 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:06:34+08:00 ] 0.0.0.0 POST /public/index/index/upload
+[ info ] localhost:8089/public/index/index/upload [运行时间：0.149000s][吞吐率：6.71req/s] [内存消耗：4,519.96kb] [文件加载：49]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'content-length' => '359',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'origin' => 'http://localhost:8089',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary6pPLfOfDIJBhuZ88',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'projectId' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\upload.html [ array (
+  0 => 'message',
+  1 => 'existsfile',
+  2 => 'condition',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] INSERT INTO `files` (`path` , `name` , `projectid` , `ext` , `size` , `smallsize`) VALUES ('public/uploads/d314e80b2910754281754f2210f8a29a37f5685c/' , 'WW_verify_yrn1dv0rvVWxGro3.txt' , 'd314e80b2910754281754f2210f8a29a37f5685c' , 'txt' , '0' , 16) [ RunTime:0.026000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:06:36+08:00 ] 0.0.0.0 GET /public/
+[ info ] localhost:8089/public/ [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：2,982.10kb] [文件加载：41]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/index/index/upload',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-31T15:06:37+08:00 ] 0.0.0.0 GET /public/api/index/getList
+[ info ] localhost:8089/public/api/index/getList [运行时间：0.072000s][吞吐率：13.89req/s] [内存消耗：3,918.35kb] [文件加载：42]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->getList[ D:\filesys\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectId`,`projectName`,`addtime`,`weChatName` FROM `project` WHERE  `loginId` = 2 ORDER BY `id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `files` WHERE  `projectid` = '54fab4d738bc06e27aab4ee01a2825a9ae2eee57' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `files` WHERE  `projectid` = '5e93e3d1afd7953ac33defaa9038284b638dc168' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:06:39+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.059000s][吞吐率：16.95req/s] [内存消耗：4,481.05kb] [文件加载：49]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:06:39+08:00 ] 0.0.0.0 GET /public/api/index/getDepartmentUser
+[ info ] localhost:8089/public/api/index/getDepartmentUser [运行时间：2.183000s][吞吐率：0.46req/s] [内存消耗：4,070.05kb] [文件加载：41]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getDepartmentUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->getDepartmentUser[ D:\filesys\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `access_token` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `access_token` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:07:56+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.069000s][吞吐率：14.49req/s] [内存消耗：4,481.05kb] [文件加载：49]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:11:16+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.062000s][吞吐率：16.13req/s] [内存消耗：4,481.05kb] [文件加载：49]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:11:28+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.056000s][吞吐率：17.86req/s] [内存消耗：4,481.05kb] [文件加载：49]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:11:35+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.070000s][吞吐率：14.29req/s] [内存消耗：4,481.05kb] [文件加载：49]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:12:27+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.118000s][吞吐率：8.47req/s] [内存消耗：4,861.76kb] [文件加载：54]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [4]语法错误: unexpected '}'[D:\filesys\runtime\temp\b8752d6b66538e9f4e07d25c0a28702b.php:117]
+---------------------------------------------------------------
+[ 2018-10-31T15:13:02+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.083000s][吞吐率：12.05req/s] [内存消耗：4,862.01kb] [文件加载：54]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [4]语法错误: unexpected '}'[D:\filesys\runtime\temp\b8752d6b66538e9f4e07d25c0a28702b.php:117]
+---------------------------------------------------------------
+[ 2018-10-31T15:14:09+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.061000s][吞吐率：16.39req/s] [内存消耗：4,861.30kb] [文件加载：54]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [4]语法错误: unexpected '(', expecting ',' or ';'[D:\filesys\runtime\temp\b8752d6b66538e9f4e07d25c0a28702b.php:117]
+---------------------------------------------------------------
+[ 2018-10-31T15:14:29+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：4,734.02kb] [文件加载：51]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:15:38+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.067000s][吞吐率：14.93req/s] [内存消耗：4,861.98kb] [文件加载：54]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [4]语法错误: unexpected '}'[D:\filesys\runtime\temp\b8752d6b66538e9f4e07d25c0a28702b.php:117]
+---------------------------------------------------------------
+[ 2018-10-31T15:17:08+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：4,734.02kb] [文件加载：51]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:17:32+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：4,734.05kb] [文件加载：51]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:17:50+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.065000s][吞吐率：15.38req/s] [内存消耗：4,734.01kb] [文件加载：51]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:17:56+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.062000s][吞吐率：16.13req/s] [内存消耗：4,734.01kb] [文件加载：51]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:18:24+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：4,734.13kb] [文件加载：51]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:18:57+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.069000s][吞吐率：14.49req/s] [内存消耗：4,734.05kb] [文件加载：51]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:19:16+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.076000s][吞吐率：13.16req/s] [内存消耗：4,734.21kb] [文件加载：51]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-31T15:19:35+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.064000s][吞吐率：15.62req/s] [内存消耗：4,481.14kb] [文件加载：49]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T16:57:41+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.063000s][吞吐率：15.87req/s] [内存消耗：4,481.36kb] [文件加载：49]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-31T16:57:54+08:00 ] 0.0.0.0 GET /public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.101000s][吞吐率：9.90req/s] [内存消耗：7,943.46kb] [文件加载：47]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'download',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '55',
+  'pid' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->download[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `id` = 55  AND `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `files`  SET `downloadnum`=`downloadnum`+1  WHERE  `id` = 55 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T16:59:09+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.067000s][吞吐率：14.93req/s] [内存消耗：4,480.34kb] [文件加载：49]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-31T16:59:12+08:00 ] 0.0.0.0 GET /public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.104000s][吞吐率：9.62req/s] [内存消耗：7,951.31kb] [文件加载：47]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'download',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '55',
+  'pid' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->download[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `id` = 55  AND `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `files`  SET `downloadnum`=`downloadnum`+1  WHERE  `id` = 55 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-31T17:00:24+08:00 ] 0.0.0.0 GET /public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.076000s][吞吐率：13.16req/s] [内存消耗：7,943.86kb] [文件加载：47]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'download',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '55',
+  'pid' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->download[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `id` = 55  AND `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `files`  SET `downloadnum`=`downloadnum`+1  WHERE  `id` = 55 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T17:03:42+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.074000s][吞吐率：13.51req/s] [内存消耗：4,734.68kb] [文件加载：51]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-31T17:03:49+08:00 ] 0.0.0.0 GET /public/index/index/download?fid=56&pid=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/download?fid=56&pid=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.090000s][吞吐率：11.11req/s] [内存消耗：4,391.48kb] [文件加载：47]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'download',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '56',
+  'pid' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->download[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `id` = 56  AND `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `files`  SET `downloadnum`=`downloadnum`+1  WHERE  `id` = 56 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T17:04:04+08:00 ] 0.0.0.0 GET /public/index/index/download?fid=54&pid=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/download?fid=54&pid=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.122000s][吞吐率：8.20req/s] [内存消耗：4,407.50kb] [文件加载：47]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'download',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '54',
+  'pid' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->download[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `id` = 54  AND `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `files`  SET `downloadnum`=`downloadnum`+1  WHERE  `id` = 54 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-10-31T17:05:00+08:00 ] 0.0.0.0 GET /public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.098000s][吞吐率：10.20req/s] [内存消耗：7,943.46kb] [文件加载：47]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'download',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '55',
+  'pid' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->download[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `id` = 55  AND `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `files`  SET `downloadnum`=`downloadnum`+1  WHERE  `id` = 55 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T17:10:20+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.108000s][吞吐率：9.26req/s] [内存消耗：4,735.78kb] [文件加载：51]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T17:10:29+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.064000s][吞吐率：15.62req/s] [内存消耗：4,482.78kb] [文件加载：49]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T17:10:34+08:00 ] 0.0.0.0 GET /public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/download?fid=55&pid=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.083000s][吞吐率：12.05req/s] [内存消耗：7,945.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'download',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '55',
+  'pid' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->download[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `id` = 55  AND `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `files`  SET `downloadnum`=`downloadnum`+1  WHERE  `id` = 55 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-31T17:11:00+08:00 ] 0.0.0.0 GET /public/index/index/download?fid=53&pid=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/download?fid=53&pid=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.478000s][吞吐率：2.09req/s] [内存消耗：25,641.60kb] [文件加载：47]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'download',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '53',
+  'pid' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->download[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `id` = 53  AND `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `files`  SET `downloadnum`=`downloadnum`+1  WHERE  `id` = 53 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-31T17:11:18+08:00 ] 0.0.0.0 GET /public/index/index/download?fid=53&pid=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/download?fid=53&pid=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.416000s][吞吐率：2.40req/s] [内存消耗：25,640.51kb] [文件加载：47]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'download',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '53',
+  'pid' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->download[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `id` = 53  AND `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `files`  SET `downloadnum`=`downloadnum`+1  WHERE  `id` = 53 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-31T17:16:51+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.065000s][吞吐率：15.38req/s] [内存消耗：4,735.22kb] [文件加载：51]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-31T17:17:02+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.071000s][吞吐率：14.08req/s] [内存消耗：4,735.20kb] [文件加载：51]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-31T17:17:03+08:00 ] 0.0.0.0 GET /
+[ info ] localhost:8089/ [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：2,982.07kb] [文件加载：42]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'Upgrade',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade' => 'websocket',
+  'origin' => 'http://localhost:8089',
+  'sec-websocket-version' => '13',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+  'sec-websocket-key' => 'jT72Brf6/+r02/PobeJ1UA==',
+  'sec-websocket-extensions' => 'permessage-deflate; client_max_window_bits',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-31T17:17:54+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.066000s][吞吐率：15.15req/s] [内存消耗：4,735.28kb] [文件加载：51]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-31T17:17:54+08:00 ] 0.0.0.0 GET /public/index/index/download
+[ info ] localhost:8089/public/index/index/download [运行时间：0.080000s][吞吐率：12.50req/s] [内存消耗：4,473.90kb] [文件加载：50]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'download',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'Upgrade',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade' => 'websocket',
+  'origin' => 'http://localhost:8089',
+  'sec-websocket-version' => '13',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+  'sec-websocket-key' => 'lDdyvertSsQzCyzDg4suxA==',
+  'sec-websocket-extensions' => 'permessage-deflate; client_max_window_bits',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->download[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `id` IS NULL  AND `projectid` IS NULL LIMIT 1 [ RunTime:0.015000s ]
+[ error ] [2]fopen(D:\filesys\): failed to open stream: No such file or directory[D:\filesys\application\index\controller\Index.php:145]
+---------------------------------------------------------------
+[ 2018-10-31T17:19:31+08:00 ] 0.0.0.0 GET /public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c
+[ info ] localhost:8089/public/index/index/fileList?id=d314e80b2910754281754f2210f8a29a37f5685c [运行时间：0.072000s][吞吐率：13.89req/s] [内存消耗：4,736.09kb] [文件加载：51]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'fileList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'd314e80b2910754281754f2210f8a29a37f5685c',
+)
+[ info ] [ RUN ] app\index\controller\Index->fileList[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\fileList.html [ array (
+  0 => 'data',
+  1 => 'pname',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=filesys;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `uname` = 'admin001' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `files` WHERE  `projectid` = 'd314e80b2910754281754f2210f8a29a37f5685c' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `project` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `projectName` FROM `project` WHERE  `projectId` = 'd314e80b2910754281754f2210f8a29a37f5685c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-31T17:19:31+08:00 ] 0.0.0.0 GET /public/index/index/test
+[ info ] localhost:8089/public/index/index/test [运行时间：0.038000s][吞吐率：26.32req/s] [内存消耗：2,941.42kb] [文件加载：39]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'Upgrade',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade' => 'websocket',
+  'origin' => 'http://localhost:8089',
+  'sec-websocket-version' => '13',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; CNZZDATA1274369066=1735924113-1538961017-%7C1538961017; ASP.NET_SessionId=lyhzdslblegjkgtwm2lpnctz; __RequestVerificationToken=nGwkBQ6_yl0HeaHq5zlShOS5kbfYlHjQ7cshw7htn6NnaTJnYweqIDeyy_ioKYs8VeZH3wGptBjx88ebOQlcRA-4CCiuSyWCg3ToZpE1skk1; nfine_mac=05808A996C9DF1F5C869789284FDAE14; nfine_licence=3DBFA84844D0A476D9417D980C66ADA4; username=sgdc; Company=5AB270C0-5D33-4203-A54F-4552699FDA3C; nfine_currentmoduleid=cbdc0f0c-455a-458b-bb91-12a912e0bdb5; fsuname=admin001; fstoken=87e222d6f1c6d6b6022fab447629fe95c65a846f; fsid=2',
+  'sec-websocket-key' => 'ddcBKMo6+rru+gES7GzmVg==',
+  'sec-websocket-extensions' => 'permessage-deflate; client_max_window_bits',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File

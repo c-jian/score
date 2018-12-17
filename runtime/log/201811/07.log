@@ -1,0 +1,113 @@
+---------------------------------------------------------------
+[ 2018-11-07T16:53:07+08:00 ] 0.0.0.0 GET /
+[ info ] localhost:8089/ [运行时间：0.379000s][吞吐率：2.64req/s] [内存消耗：2,991.41kb] [文件加载：42]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; recordurl=%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F; CNZZDATA1274369066=1735924113-1538961017-%7C1541575453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\filesys\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\filesys\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-07T16:53:07+08:00 ] 0.0.0.0 GET /public/api/index/getList
+[ info ] localhost:8089/public/api/index/getList [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：2,458.04kb] [文件加载：34]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; recordurl=%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F; CNZZDATA1274369066=1735924113-1538961017-%7C1541575453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-07T16:53:07+08:00 ] 0.0.0.0 GET /public/api/index/getDepartmentUser
+[ info ] localhost:8089/public/api/index/getDepartmentUser [运行时间：0.050000s][吞吐率：20.00req/s] [内存消耗：2,458.56kb] [文件加载：34]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getDepartmentUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; recordurl=%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F; CNZZDATA1274369066=1735924113-1538961017-%7C1541575453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-07T16:53:07+08:00 ] 0.0.0.0 GET /public/login/
+[ info ] localhost:8089/public/login/ [运行时间：0.054000s][吞吐率：18.52req/s] [内存消耗：2,959.34kb] [文件加载：41]
+[ info ] [ LANG ] D:\filesys\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'login',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8089',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36',
+  'referer' => 'http://localhost:8089/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'UM_distinctid=1665138c8d87b8-0cb50c80d8b171-414f0120-1fa400-1665138c8d91d6; recordurl=%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F%2Chttp%253A%252F%252Flocalhost%252F; CNZZDATA1274369066=1735924113-1538961017-%7C1541575453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\login\controller\Index->index[ D:\filesys\application\login\controller\Index.php ]
+[ info ] [ VIEW ] D:\filesys\public/../application/login\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
