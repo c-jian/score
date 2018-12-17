@@ -31,7 +31,20 @@ class Index extends Controller{
 
 	//打分页面
 	public function mark(){
-		echo 'mark';
+
+		$code=input('code');
+		$res=file_get_contents('https://qyapi.weixin.qq.com/cgi-bin/user/getuserinfo?access_token='.$this->token.'&code='.$code);
+
+		$userid=json_decode($res,true)['UserId'];
+
+		$raterResult=Db::table('rater')->where(array('raterid'=>$userid))->find();
+
+		if($raterResult){
+			$this->respond(['msg'=>'欢迎进入打分程序','code'=>0,'data'=>$raterResult]);
+		}else{
+			$this->respond(['msg'=>'您无权操作','code'=>403]);
+		}
+
 	}
 
 	/**
